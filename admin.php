@@ -110,6 +110,7 @@ if(isset($_POST['submit']) and $_FILES){
 		<div class="container">
 			<p class="footer__text"> Инженерный проект Лыткин И.М. 191-322</p>
 			<a href="https://github.com/fxshxr/lytkin-injproj" class="git">GIT</a>
+					<a href="lend.html" class="git">Лендинг</a>
 		</div>
 	</footer>
 </body>
