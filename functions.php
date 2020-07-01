@@ -1,7 +1,7 @@
 <?php 
-	$host = 'localhost';
-	$database = 'bikenews'; // имя базы данных
-	$user = 'root'; // имя пользователя
-	$password = ''; // пароль
+	$host = 'std-mysql.ist.mospolytech.ru';
+	$database = 'std_923'; // имя базы данных
+	$user = 'std_923'; // имя пользователя
+	$password = '12345678'; // пароль
  ?>
 
