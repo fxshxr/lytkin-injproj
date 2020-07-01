@@ -1,44 +1,71 @@
 body{
+	background-color: #537EFF;
 	margin: 0 auto;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .container{
 	width: 1200px;
-
-	height: 100%;
 	margin: 0 auto;
+	
+}
+
+ul{
+	background-color:#0645FF;
+	padding-top: 20px;
 }
 
 .header{
 
+	color: #fff;
 	width: 100%;
-	background-color: yellow;
+	background-color:#0645FF;
 	height: 100px;
 }
 
-.header__logo{
-	margin-top: 20px;
-	color: black;
-	font-size: 40px;
-	font-weight: bold;
-	text-decoration: none;
-}
-.header__logo:hover{
-	color: grey;
-	transition: 0.5s;
-}
+
 .header__nav__list{
 	list-style-type: none;
   	margin-left: 200px;
-  	padding: 0;
+
 }
 .link{
+	margin-top: 20px;
 	margin-right: 50px;
 	display: inline;
+	color: #fff;
+}
+.link a{
+	margin-top: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 40px;
+}
+.link a:hover{
+	background-color: #032380;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 32px;
+	transition: 0.3s;
+}
+.logo{
+	margin-top: 20px;
+	margin-left: -250px;
 }
 .header__login{
+	margin-top:-60px; 
 	float: right;
-	margin-top: -50px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 40px;
 }
+.header__login:hover{
+	background-color: #032380;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
 .news__card{
 	border: 3px solid black;
 	margin: 30px auto;
@@ -48,15 +75,36 @@ body{
 	background-color: white;
 }
 
-.login{
-	border: 3px solid black;
-	margin: 0 30%;
+
+.cardimg{
+	margin-top: -150px;
+
+	float: right;
+	width: 10%;
+	height: 10%;
 }
-.error{
-	font-weight: bold;
+.footer{
+	width: 100%;
+	height: 70px;
+	background-color: #293F80;
 
-	margin-left: 30%;
-	
-	font-size: 20px;
-
+}
+.footer__text{
+	color: #fff;
+}
+.git{
+	color: #fff;
+}
+.main__login{
+	color: #fff;
+}
+.button{
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	background-color: #fff;
+	border: #000;
+}
+.admin__main{
+	color: #fff;
 }
